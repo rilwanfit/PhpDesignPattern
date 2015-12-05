@@ -1,4 +1,5 @@
 <?php
+namespace PDP\Builder\Person;
 
 /**
  * The director class is part of the builder patter, the build method should be passed a builder.

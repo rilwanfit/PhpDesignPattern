@@ -1,4 +1,8 @@
 <?php
+namespace PDP\Builder\Person;
+
+require_once __DIR__ .'/../../../vendor/autoload.php';
+
 $director                = new PersonDirector();
 $employedMaleBuilder     = new EmployedMaleBuilder();
 $unemployedMaleBuilder   = new UnemployedMaleBuilder();
@@ -13,6 +17,8 @@ $unemployedMaleBuilder   = new UnemployedMaleBuilder();
  * )
  */
 $employedMale     = $director->build($employedMaleBuilder);
+echo '<pre>';
+var_dump($employedMale);
 
 /**
  * object(Person)#5 (2) {
@@ -22,3 +28,4 @@ $employedMale     = $director->build($employedMaleBuilder);
  * )
  */
 $unemployedMale   = $director->build($unemployedMaleBuilder);
+var_dump($unemployedMale);

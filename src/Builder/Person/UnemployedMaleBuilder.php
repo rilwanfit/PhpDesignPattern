@@ -1,4 +1,5 @@
 <?php
+namespace PDP\Builder\Person;
 
 /**
  * Created by PhpStorm.
