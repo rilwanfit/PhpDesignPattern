@@ -1,0 +1,7 @@
+# List of files and directories to be ignored when versioning
+# IDE-specific
+/.idea
+
+# MacOS
+*.DS_Store
+
