@@ -6,6 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'PDP\\Builder\\Person\\EmployedMaleBuilder' => $baseDir . '/src/Builder/Person/EmployedMaleBuilder.php',
     'PDP\\Builder\\Person\\Person' => $baseDir . '/src/Builder/Person/Person.php',
+    'PDP\\Builder\\Person\\PersonBuilderInterface' => $baseDir . '/src/Builder/Person/PersonBuilderInterface.php',
     'PDP\\Builder\\Person\\PersonDirector' => $baseDir . '/src/Builder/Person/PersonDirector.php',
+    'PDP\\Builder\\Person\\UnemployedMaleBuilder' => $baseDir . '/src/Builder/Person/UnemployedMaleBuilder.php',
+    'PDP\\ChainOfResponsibility\\AlarmSystem\\Chain' => $baseDir . '/src/ChainOfResposibility/AlarmSystem/Chain.php',
+    'PDP\\ChainOfResponsibility\\BookTopic\\AbstractBookTopic' => $baseDir . '/src/ChainOfResposibility/BookTopic/AbstractBookTopic.php',
+    'PDP\\ChainOfResponsibility\\BookTopic\\BookSubSubTopic' => $baseDir . '/src/ChainOfResposibility/BookTopic/BookSubSubTopic.php',
+    'PDP\\ChainOfResponsibility\\BookTopic\\BookSubTopic' => $baseDir . '/src/ChainOfResposibility/BookTopic/BookSubTopic.php',
+    'PDP\\ChainOfResponsibility\\BookTopic\\BookTopic' => $baseDir . '/src/ChainOfResposibility/BookTopic/BookTopic.php',
 );
